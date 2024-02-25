@@ -18,6 +18,7 @@ We're excited to announce that the AutoGrader application is now available for p
 - **Downloadable .csv Results:** The application enables users to download the results of essay submissions in a convenient .csv file. This file compiles all necessary information related to the essay submissions.
 - **Loading Indicator:** Enhancing user experience, the application includes loading indicators to display the status of document uploads and results generation.
 - **Error Handling:** Comprehensive error handling ensures that users are informed of any issues during the essay submission process. Well-designed and described error pages provide clarity and guidance.
+- **Secure API Key Handling:** Created server-side API endpoints in the application that act as a proxy to the external APIs.
 
 ## Technologies Used
 - Radix UI, Chakra UI, Tailwind CSS
@@ -28,6 +29,7 @@ We're excited to announce that the AutoGrader application is now available for p
 - Next Auth
 - Zustand
 - Prisma
+- AWS RDS
 
 ## Getting Started
 1. Clone the repository.
