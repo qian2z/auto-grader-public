@@ -7,7 +7,7 @@ Auto Grader is a web application designed as a final year project for my BSc (Ho
 As my final year project is currently ongoing, and in adherence to university terms and conditions, the source code for AutoGrader is not publicly visible at this time. I appreciate your understanding and look forward to sharing the code once the project is completed and the necessary permissions are obtained.
 
 ## Usage
-Currently, the application is not available for public use. It is intended for internal use only. The web application has been protected with credentials login.
+We're excited to announce that the AutoGrader application is now available for public use! You can access the web application using your Google or GitHub login credentials. As a new user, you'll receive one credit free for essay submission.
 
 ## Features
 - **Connect to GPT-3.5 API:** The application seamlessly connects to the GPT-3.5 API, sending requests and receiving grading results for short English essays.
