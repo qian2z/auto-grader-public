@@ -7,7 +7,7 @@ Auto Grader is a web application designed as a final year project for my BSc (Ho
 As my final year project is currently ongoing, and in adherence to university terms and conditions, the source code for AutoGrader is not publicly visible at this time. I appreciate your understanding and look forward to sharing the code once the project is completed and the necessary permissions are obtained.
 
 ## Usage
-We're excited to announce that the AutoGrader application is now available for public use! You can access the web application using your Google or GitHub login credentials. As a new user, you'll receive one credit free for essay submission.
+We're excited to announce that the AutoGrader application is now available for public use! You can access the web application using your Google or GitHub login credentials. As a new user, you'll receive one free credit upon registration, and you can easily top up your credits for additional essay submissions via Stripe.
 
 ## Features
 - **Connect to GPT-3.5 API:** The application seamlessly connects to the GPT-3.5 API, sending requests and receiving grading results for short English essays.
@@ -19,6 +19,8 @@ We're excited to announce that the AutoGrader application is now available for p
 - **Loading Indicator:** Enhancing user experience, the application includes loading indicators to display the status of document uploads and results generation.
 - **Error Handling:** Comprehensive error handling ensures that users are informed of any issues during the essay submission process. Well-designed and described error pages provide clarity and guidance.
 - **Secure API Key Handling:** Created server-side API endpoints in the application that act as a proxy to the external APIs.
+- **Google Cloud SQL Database Hosting:** Leveraging the power of Google Cloud SQL, our application now benefits from reliable and scalable database hosting, ensuring efficient data management and accessibility.
+- **Stripe Payment Gateway Integration:** Users can now conveniently top up their credits using Stripe, ensuring secure and seamless transactions.
 
 ## Technologies Used
 - Radix UI, Chakra UI, Tailwind CSS
@@ -29,7 +31,8 @@ We're excited to announce that the AutoGrader application is now available for p
 - Next Auth
 - Zustand
 - Prisma
-- AWS RDS
+- Google Cloud SQL
+- Stripe
 
 ## Getting Started
 1. Clone the repository.
